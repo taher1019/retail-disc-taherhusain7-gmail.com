@@ -32,3 +32,60 @@ The above repo is Spring boot project build on maven which contains a user frien
 net payable amount depending on the user input.
 URL : "http://localhost:<port>"
 Ex : "http://localhost:8080"
+
+
+
+Have already created two different projects on different folder under git repository.
+
+Git URL : 
+
+After you clone the git repository you will have two folders created : 
+
+Note : Apache maven should be installed and configured for the projects to run any maven plugin should be installed in the eclipse.
+
+
+A) 1st Folder named SpringBoot is a rest API build on Spring framework is a Maven build project, hence import this as a maven project in any IDE.
+
+Refer API documentation URL provided in Readme file of GitHub, also attaching the same in the email as well.
+
+API documentation URL : https://web.postman.co/collections/3789074-82410b6a-822d-c6fd-0075-eb63be636864?workspace=b0362db1-9269-4305-8051-b0115e50562c
+
+Steps to run this project : 
+
+1) Import as existing maven project, and a maven structure project will be created inside IDE named "SpringBoot".
+
+2) Right click on project, select run as java application.
+
+3) Select Main.java as runtype class and click on ok.
+
+4) Project will run on 8080 port. and url : "http://localhost:8080" 
+
+5) Test the API under any API testing tools such as postman.
+
+6) Select POST method, URL : "http://localhost:8080"
+
+Content-Type : application/json
+
+request sample : 
+{
+"id" : "1",
+"amount" : "455",
+"grocery_amount": "50"
+}
+
+response : "333.5"
+
+
+B) 2nd Folder named RetailStoreDiscount is a web dynamic project build using spring boot and is a maven build project.
+
+Steps to run this project : 
+
+1) Import as existing maven project, and a maven structure project will be created inside IDE named "SpringBoot".
+
+2) Right click on project, select run as java application.
+
+3) Select Main.java as runtype class and click on ok.
+
+4) Project will run on 8080 port. and url : "http://localhost:8080" 
+
+5) URL will run on any browser.
